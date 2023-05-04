@@ -1,6 +1,6 @@
-package com.example.addon.modules;
+package ch.origaming.papercomet.modules;
 
-import com.example.addon.Addon;
+import ch.origaming.papercomet.Addon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 
 public class ModuleExample extends Module {

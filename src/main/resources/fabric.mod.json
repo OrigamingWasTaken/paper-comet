@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "paper-comet",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for the Meteor addons.",
+  "name": "Paper Comet",
+  "description": "Meteor Client addon that implements useful features",
   "authors": [
-    "seasnail"
+    "Origaming_"
   ],
   "contact": {
-    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "repo": "https://github.com/OrigamingWasTaken/paper-comet"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.Addon"
+      "ch.origaming.papercomet.Addon"
     ]
   },
   "mixins": [

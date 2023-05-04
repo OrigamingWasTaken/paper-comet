@@ -1,8 +1,8 @@
-package com.example.addon;
+package ch.origaming.papercomet;
 
-import com.example.addon.commands.CommandExample;
-import com.example.addon.hud.HudExample;
-import com.example.addon.modules.ModuleExample;
+import ch.origaming.papercomet.commands.CommandExample;
+import ch.origaming.papercomet.hud.HudExample;
+import ch.origaming.papercomet.modules.ModuleExample;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.commands.Commands;

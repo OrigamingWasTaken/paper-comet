@@ -1,6 +1,6 @@
-package com.example.addon.hud;
+package ch.origaming.papercomet.hud;
 
-import com.example.addon.Addon;
+import ch.origaming.papercomet.Addon;
 import meteordevelopment.meteorclient.systems.hud.HudElement;
 import meteordevelopment.meteorclient.systems.hud.HudElementInfo;
 import meteordevelopment.meteorclient.systems.hud.HudRenderer;
