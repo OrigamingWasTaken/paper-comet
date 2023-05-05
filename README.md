@@ -5,3 +5,10 @@
 # What is it?
 
 Paper Comet is a meteor addon made to implement some of the features needed to connect on LiveOverflow's server. It also contain (will) infReach and other custom made modules made by myself to learn java
+
+# Currently contains
+
+- Worldborder: Disable worldborder client-side
+- BotWalk: Anti human detection (round every movement packet)
+- DemoScreen: Remove the demo screen packets
+- Cancel Gamemode: Cancel received gamemode update packets
