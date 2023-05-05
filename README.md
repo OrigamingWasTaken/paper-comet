@@ -12,3 +12,7 @@ Paper Comet is a meteor addon made to implement some of the features needed to c
 - BotWalk: Anti human detection (round every movement packet)
 - DemoScreen: Remove the demo screen packets
 - Cancel Gamemode: Cancel received gamemode update packets
+
+# For your information
+
+This mod is NOT intended to be used to cheat on servers. It was made to learn Java with LiveOverflow's Minecraft:Hacked series. Please do NOT use this mod on any server that doesn't allow the use of utility mods like this.
