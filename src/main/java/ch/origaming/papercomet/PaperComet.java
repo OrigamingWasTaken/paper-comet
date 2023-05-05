@@ -2,7 +2,7 @@ package ch.origaming.papercomet;
 
 import ch.origaming.papercomet.commands.CommandExample;
 import ch.origaming.papercomet.hud.HudExample;
-import ch.origaming.papercomet.modules.ModuleExample;
+import ch.origaming.papercomet.modules.*;
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.commands.Commands;
@@ -12,18 +12,21 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class Addon extends MeteorAddon {
+public class PaperComet extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
-    public static final Category CATEGORY = new Category("Example");
-    public static final HudGroup HUD_GROUP = new HudGroup("Example");
+    public static final Category CATEGORY = new Category("Paper Comet");
+    public static final HudGroup HUD_GROUP = new HudGroup("Paper Comet");
 
     @Override
     public void onInitialize() {
         LOG.info("Initializing Meteor Addon Template");
 
         // Modules
-        Modules.get().add(new ModuleExample());
 
+        Modules.get().add(new BotWalk());
+        Modules.get().add(new Worldborder());
+        Modules.get().add(new DemoScreen());
+        Modules.get().add(new CancelGamemode());
         // Commands
         Commands.get().add(new CommandExample());
 
@@ -38,6 +41,6 @@ public class Addon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.example.addon";
+        return "ch.origaming.papercomet";
     }
 }

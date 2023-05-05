@@ -14,14 +14,14 @@
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "ch.origaming.papercomet.Addon"
+      "ch.origaming.papercomet.PaperComet"
     ]
   },
   "mixins": [
-    "addon.mixins.json"
+    "papercomet.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "241, 241, 241"
   },
   "depends": {
     "java": ">=17",
